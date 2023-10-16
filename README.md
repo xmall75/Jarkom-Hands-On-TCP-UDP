@@ -44,4 +44,23 @@ The SYN-ACK flag value (0x12) is a result of setting both the SYN and ACK flags 
 sequence number (raw) : 4236801228<br />
 payload : 1385 bytes
 
+<h2>6. Consider the TCP segment containing the HTTP “POST” as the first segment in the data transfer part of the TCP connection.</h2>
+- At what time was the first segment (the one containing the HTTP POST) in the data-transfer part of the TCP connection sent?<br />
+- At what time was the ACK for this first data-containing segment received?<br />
+- What is the RTT for this first data-containing segment?<br />
+
+![6](https://github.com/xmall75/Jarkom-Hands-On-TCP-UDP/assets/34641833/47c66f71-f651-4f7e-a569-cfe9e905704f)
+![6v2](https://github.com/xmall75/Jarkom-Hands-On-TCP-UDP/assets/34641833/5dceb473-99b7-4b63-bdb4-37d1538add7f)
+
+first segment arrival is at Feb 3, 2021 09:43:26.840557000 SE Asia Standard Time<br />
+the response segment is at Feb 3, 2021 09:43:26.885500000 SE Asia Standard Time<br />
+EstimatedRTT is more or less 0.449 second.
+
+<h2>7. What is the length (header plus payload) of each of the first four data-carrying TCP segments?</h2>
+
+![7v2](https://github.com/xmall75/Jarkom-Hands-On-TCP-UDP/assets/34641833/335c6e28-e3a5-4e81-8212-4680f3ee7d66)
+![7](https://github.com/xmall75/Jarkom-Hands-On-TCP-UDP/assets/34641833/f924bb13-260c-4977-a8fc-31e36e5f87a1)
+
+The first segment has length of 1437 bytes<br />
+the response is 829 bytes
 
